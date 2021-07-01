@@ -313,6 +313,24 @@ dt {
 dd {
   margin: 0; }
 
+
+
+/*=== Custom === */
+
+.hide-element {
+    border: 0;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip; rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+
 /*=== Clearing === */
 header:before, header:after,
 main:before,
@@ -3082,10 +3100,10 @@ a,
 .bg-white a,
 .bg-light a,
 .bg-gradient-white a {
-  color: #44d; }
+  color: #685bc7; }
 
 a:hover {
-  color: #3af; }
+  color: #c5299b; }
 
 .flexblock li > a,
 [class*='bg-'] li > a,
@@ -3681,9 +3699,9 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  background-color: #44d;
+  background-color: #685bc7;
   color: #fff;
-  text-shadow: 0 1px 0 #123; }
+   }
 
 .button:active,
 button[type='submit']:active,
